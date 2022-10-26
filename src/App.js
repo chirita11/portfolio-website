@@ -1,8 +1,9 @@
 import "./App.css";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Navbar from "./components/Navbar";
-import Portfolio from "./components/Portfolio";
+import Footer from "./components/footer/Footer";
+import Header from "./components/header/Header";
+import Navbar from "./components/navbar/Navbar";
+import Portfolio from "./components/portfolio/Portfolio";
+import Resume from "./components/resume/Resume";
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
       <Header />
       <Footer />
       <Portfolio />
+      <Footer />
+      <Resume />
+      <Footer />
     </div>
   );
 }
