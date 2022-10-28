@@ -25,4 +25,7 @@ div .footer {
     padding: 0 6px;
     margin: 0;
   }
+  .footer h6 {
+    display: none;
+  }
 }
