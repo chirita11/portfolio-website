@@ -14,13 +14,13 @@ div .footer {
   color: #639fb8;
 }
 
-@media (max-width: 576px) {
-  .footer {
+@media (min-width: 375px) and (max-width: 576px) {
+  div .footer {
     display: flex;
     justify-content: space-around;
-    background-color: #f5f5f5;
-    padding: 2rem 0;
-    margin-top: 2rem;
+    padding: 1rem 0;
+    margin-top: 1rem;
+    border: 1px solid red;
   }
 
   .footer .contact {
