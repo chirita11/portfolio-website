@@ -1,14 +1,13 @@
 div .footer {
   display: flex;
   justify-content: space-around;
-  background-color: #0d0d0c;
   color: #fff;
   padding: 2rem 0;
 }
 .footer .contact {
   border-left: 1px solid rgb(98, 148, 190);
   border-right: 1px solid rgb(98, 148, 190);
-  padding: 0 10rem;
+  padding: 0 7rem;
 }
 .footer h6 {
   color: #639fb8;
@@ -16,14 +15,14 @@ div .footer {
 
 @media (min-width: 375px) and (max-width: 576px) {
   div .footer {
-    display: flex;
-    justify-content: space-around;
-    padding: 1rem 0;
-    margin-top: 1rem;
-    font-size: 14px;
+    display: block;
+    color: #fff;
+    padding: 1rem;
   }
-
   .footer .contact {
-    padding: 0 1rem;
+    border-left: 0;
+    border-right: 0;
+    padding: 0 6px;
+    margin: 0;
   }
 }

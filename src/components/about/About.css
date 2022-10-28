@@ -89,20 +89,22 @@
   }
   .name .links img {
     width: 100%;
-    margin: 4px;
+    margin: 2px;
   }
   .links {
     display: flex;
     margin-bottom: 1rem;
     justify-content: space-evenly;
-    margin-left: 13px;
+    margin-left: 2px;
+    width: 100%;
   }
 
   .name h5 {
     font-family: "Montserrat", sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
-    margin-left: 7rem;
+    margin-left: 6rem;
     display: inline;
+    width: 100%;
   }
 }

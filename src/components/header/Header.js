@@ -10,10 +10,7 @@ const Header = () => {
         <div className="header-text">
           <h6 className="hello">Hello World, I'm</h6>
           <h1>Chinwendu</h1>
-          <p>
-            a web developer and an entreprenuer, passionate about creating
-            beautiful.
-          </p>
+          <p>Developer and an Entreprenuer.</p>
 
           <div className="button">
             <a href={resume}>

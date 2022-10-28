@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <div className="footer bg-secondary">
-        <div>
+        <div className="mail">
           <div>
             <i class="bi bi-envelope"></i>
           </div>
@@ -19,7 +19,7 @@ const Footer = () => {
           <h6>Contact</h6>
           <p>+234-8155100583</p>
         </div>
-        <div>
+        <div className="location">
           <div>
             <i class="bi bi-person-lines-fill"></i>
           </div>

@@ -56,13 +56,14 @@ button {
   }
   .header .hello {
     margin-top: 2rem;
-    margin-left: 9rem;
+    margin-left: 3rem;
     margin-bottom: 0;
-    font-size: 14px;
+    font-size: 13px;
+    display: block;
   }
   .header-text h1 {
     font-family: "Abril Fatface";
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: #000;
     width: 100%;
     text-align: center;
@@ -72,16 +73,19 @@ button {
     font-family: "Montserrat ";
     font-size: 14px;
     font-style: normal;
-    text-align: center;
+    text-align: left;
     margin-top: 13px;
     width: 100%;
+
     padding-left: 2.5rem;
   }
 
   .header-text p {
     font-family: "Montserrat";
-    font-size: 14px;
-    width: 25rem;
+    font-size: 18px;
+    display: block;
+    width: 200%;
+    text-align: center;
   }
   .header button {
     color: #000;
@@ -90,7 +94,9 @@ button {
     border-style: none;
     outline: 1px solid black;
     margin-bottom: 2rem;
-    font-size: 13px;
+    font-size: 12px;
+    width: 100%;
+    padding: 5px;
     margin-left: 6.5rem;
   }
 }
