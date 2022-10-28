@@ -6,7 +6,7 @@ import "../navbar/Navbar.css";
 const Navbar = () => {
   return (
     <>
-      <nav class="navbar navbar-expand-lg bg-dark">
+      <nav class="navbar navbar-expand-lg bg-secondary">
         <div class="container-fluid">
           <a class="navbar-brand text-white nav-title ms-5" href="#">
             Rit<span>a</span>

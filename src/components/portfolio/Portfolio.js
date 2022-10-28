@@ -10,7 +10,7 @@ import "../portfolio/Portfolio.css";
 const Portfolio = () => {
   return (
     <>
-      <div className="data">
+      <div className="data bg-light">
         <div className="portfolio-card">
           <div class="card shadow  bg-white rounded">
             <img src={meet} class="card-img-top" alt="meet" />

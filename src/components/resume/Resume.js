@@ -5,9 +5,9 @@ import "../resume/Resume.css";
 const Resume = () => {
   return (
     <>
-      <div className="resume container">
-        <div className="cv">
-          <div className="resume-head">
+      <div className="resume container-fluid bg-light">
+        <div className="cv container">
+          <div className="resume-head container-fluid">
             <div className="head-title">
               <h1>Chiaha Rita Chinwendu</h1>
               <h6>Web developer | Entreprenuer</h6>
@@ -39,8 +39,8 @@ const Resume = () => {
             <div className="description">
               <div className="work">
                 <h5> Web developer</h5>
+                <h6>Tech Accent Creatives</h6>
               </div>
-              <h6>Tech Accent Creatives</h6>
 
               <p>June - till date</p>
               <p>
@@ -52,8 +52,8 @@ const Resume = () => {
 
               <div className="work">
                 <h5>Data Collector </h5>
+                <h6>World Bank Projects</h6>
               </div>
-              <h6>World Bank Projects</h6>
 
               <p>March 2021 - April 2021</p>
               <p>
@@ -65,8 +65,8 @@ const Resume = () => {
 
               <div className="work">
                 <h5>Executive Secretary</h5>
+                <h6>Raxon Culler Gold</h6>
               </div>
-              <h6>Raxon Culler Gold</h6>
 
               <p>Aug 2020 - Feb. 2021</p>
               <p>
@@ -79,8 +79,8 @@ const Resume = () => {
 
               <div className="work">
                 <h5>Customer Service Representative</h5>
+                <h6>Icegate Limited</h6>
               </div>
-              <h6>Icegate Limited</h6>
 
               <p>May 2012 - Jan 2014</p>
               <p>
@@ -92,8 +92,8 @@ const Resume = () => {
 
               <div className="work">
                 <h5>Internal Auditor</h5>
+                <h6>Aaron's Place</h6>
               </div>
-              <h6>Aaron's Place</h6>
 
               <p>May 2021 - Sept. 2021</p>
               <p>

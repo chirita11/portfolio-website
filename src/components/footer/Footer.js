@@ -4,7 +4,7 @@ import "../footer/Footer.css";
 const Footer = () => {
   return (
     <>
-      <div className="footer">
+      <div className="footer bg-secondary">
         <div>
           <div>
             <i class="bi bi-envelope"></i>

@@ -70,7 +70,7 @@ button {
 
   .header .header-text {
     font-family: "Montserrat ";
-    font-size: 1rem;
+    font-size: 14px;
     font-style: normal;
     text-align: center;
     margin-top: 13px;
@@ -90,7 +90,7 @@ button {
     border-style: none;
     outline: 1px solid black;
     margin-bottom: 2rem;
-    font-size: 15px;
+    font-size: 13px;
     margin-left: 6.5rem;
   }
 }

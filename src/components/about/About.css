@@ -73,7 +73,7 @@
   }
   .about-container-left img {
     margin: auto;
-    width: 50%;
+    width: 40%;
     border-radius: 15rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -81,6 +81,11 @@
   .content-about h1 {
     margin-top: 1rem;
     margin-bottom: 0;
+    padding: 10px;
+  }
+
+  .content-about span {
+    font-size: 1.8rem;
   }
   .name .links img {
     width: 100%;
@@ -89,42 +94,15 @@
   .links {
     display: flex;
     margin-bottom: 1rem;
-    justify-content: space-around;
-    margin-left: 2rem;
+    justify-content: space-evenly;
+    margin-left: 13px;
   }
 
   .name h5 {
     font-family: "Montserrat", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
-    margin-left: 5rem;
+    margin-left: 7rem;
+    display: inline;
   }
 }
-
-/* 
-#about .about-text {
-  display: block;
-  border: 1px solid red;
-}
-.content-about {
-  display: block;
-}
-.about-container-left img {
-  display: block;
-  width: 20%;
-  margin-left: 2rem;
-  border-radius: 15rem;
-}
-.content-about h1 {
-  display: block;
-  font-family: "Montserrat", sans-serif;
-  font-size: 12px;
-  padding: 13px;
-  /* margin-top: 9rem; */
-
-/* .content-about h3 {
-  margin-top: 10px;
-  font-size: 1rem;
-  padding: 13px;
-  display: block;
-} */
