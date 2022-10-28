@@ -5,21 +5,19 @@ import "../navbar/Navbar.css";
 
 const Navbar = () => {
   return (
-    <div>
-      <nav class="navbar navbar-expand-lg">
+    <>
+      <nav class="navbar navbar-expand-lg bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand  text-white nav-title" href="#">
+          <a class="navbar-brand text-white nav-title ms-5" href="#">
             Rit<span>a</span>
           </a>
-          <div className="mobileimg">
-            <img src={image} alt="" />
-          </div>
+
           <button
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
@@ -27,29 +25,43 @@ const Navbar = () => {
           </button>
           <div
             class="collapse navbar-collapse justify-content-end me-5"
-            id="navbarNavAltMarkup"
+            id="navbarNav"
           >
-            <div class="navbar-nav">
-              <a class="nav-link text-white mt-2" aria-current="page" href="#">
-                Home
-              </a>
-              <a class="nav-link text-white mt-2 ms-4" href="#">
-                Portfolio
-              </a>
-              <a class="nav-link text-white mt-2 ms-4" href="#">
-                Resume
-              </a>
-              <a href={resume} target="_blank">
-                <button class="nav-link btn btn-outline text-white ms-4 px-4 m-sm-2">
-                  Download CV
-                </button>
-              </a>
-            </div>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active nav-link text-white mt-2 ms-2"
+                  aria-current="page"
+                  href="#"
+                >
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link text-white mt-2 ms-2" href="#">
+                  About
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link text-white mt-2 ms-2" href="#">
+                  Resume
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link text-white mt-2 ms-2">Portfolio</a>
+              </li>
+              <li>
+                <a href={resume} target="_blank">
+                  <button class="nav-link btn btn-outline text-white py-2 px-">
+                    Download CV
+                  </button>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </nav>
-    </div>
+    </>
   );
 };
-
 export default Navbar;

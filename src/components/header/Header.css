@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 
 .header {
-  background-image: url(../images/yes.jpg);
+  background-image: url(../images/about-bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -31,7 +31,7 @@
 
 .header-text p {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 button {
@@ -88,7 +88,6 @@ button {
     color: #000;
     background-color: #fff;
     border-radius: 5px;
-    padding: 1rem 2rem;
     border-style: none;
     outline: 1px solid black;
     margin-bottom: 2rem;

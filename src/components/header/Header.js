@@ -12,8 +12,7 @@ const Header = () => {
           <h1>Chinwendu</h1>
           <p>
             a web developer and an entreprenuer, passionate about creating
-            beautiful, functional and responsive websites. I have worked with
-            incredibly talented people across different platforms.
+            beautiful.
           </p>
 
           <div className="button">

@@ -1,48 +1,20 @@
 import React from "react";
-import image from "../images/image-hero.png";
-import twitter from "../images/twitter.svg";
-import linkedin from "../images/linkedin.svg";
-import github from "../images/github.svg";
-import mail from "../images/envelope.svg";
+
 import "../resume/Resume.css";
 
 const Resume = () => {
   return (
     <>
-      <div className="resume">
-        <div className="bio-data">
-          <img src={image} alt="face" />
-          <h2>Chinwendu Rita C.</h2>
-          <h5>Web Developer | Entreprenuer</h5>
-          <div className="links">
-            <a href="#">
-              <img src={mail} alt="mail-box" />
-            </a>
-            <a href="#">
-              <img src={twitter} alt="twitter" />
-            </a>
-            <a href="#">
-              <img src={linkedin} alt="linkedin" />
-            </a>
-            <a href="#">
-              <img src={github} alt="github" />
-            </a>
-          </div>
-          <p>
-            a web developer, I passionate about creating beautiful, functional
-            and responsive websites. I have worked with incredibly talented
-            people across different platforms.
-          </p>
-        </div>
+      <div className="resume container">
         <div className="cv">
-          <div className="text">
-            <div className="title">
+          <div className="resume-head">
+            <div className="head-title">
               <h1>Chiaha Rita Chinwendu</h1>
-              <h5>Web developer | Entreprenuer</h5>
+              <h6>Web developer | Entreprenuer</h6>
             </div>
-            <div className="description">
+            <div className="mail">
               <h3>chiaharita0@gmail.com</h3>
-              <p>08155100583</p>
+              <h3>08155100583</h3>
             </div>
           </div>
           <div className="text">
@@ -51,20 +23,13 @@ const Resume = () => {
             </div>
             <div className="description">
               <h5>Tech Accent Creatives</h5>
-              <p>
-                lagos, Nigeria <br /> Full stack web development
-              </p>
+              <p>Full stack web development</p>
 
               <h5>Madonna University</h5>
-              <p>
-                Elele, Port-Harcourt <br /> Msc Nutritional Biochemistry, 2021-
-                Till date
-              </p>
+              <p>Msc Nutritional Biochemistry, 2021- Till date</p>
 
               <h5>Caritas University</h5>
-              <p>
-                Enugu <br /> Bsc. Biochemistry, 2018
-              </p>
+              <p>Bsc. Biochemistry, 2018</p>
             </div>
           </div>
           <div className="text">
@@ -74,8 +39,8 @@ const Resume = () => {
             <div className="description">
               <div className="work">
                 <h5> Web developer</h5>
-                <h6>Tech Accent Creatives</h6>
               </div>
+              <h6>Tech Accent Creatives</h6>
 
               <p>June - till date</p>
               <p>
@@ -87,8 +52,8 @@ const Resume = () => {
 
               <div className="work">
                 <h5>Data Collector </h5>
-                <h6>World Bank Projects</h6>
               </div>
+              <h6>World Bank Projects</h6>
 
               <p>March 2021 - April 2021</p>
               <p>
@@ -100,8 +65,8 @@ const Resume = () => {
 
               <div className="work">
                 <h5>Executive Secretary</h5>
-                <h6>Raxon Culler Gold</h6>
               </div>
+              <h6>Raxon Culler Gold</h6>
 
               <p>Aug 2020 - Feb. 2021</p>
               <p>
@@ -114,8 +79,8 @@ const Resume = () => {
 
               <div className="work">
                 <h5>Customer Service Representative</h5>
-                <h6>Icegate Limited</h6>
               </div>
+              <h6>Icegate Limited</h6>
 
               <p>May 2012 - Jan 2014</p>
               <p>
@@ -127,8 +92,8 @@ const Resume = () => {
 
               <div className="work">
                 <h5>Internal Auditor</h5>
-                <h6>Aaron's Place</h6>
               </div>
+              <h6>Aaron's Place</h6>
 
               <p>May 2021 - Sept. 2021</p>
               <p>
@@ -147,8 +112,11 @@ const Resume = () => {
             <div className="description">
               <div className="work">
                 <p>HTML</p>
+                <br />
                 <p>CSS</p>
+                <br />
                 <p>Javascript</p>
+                <br />
                 <p>React JS</p>
               </div>
               <div className="work">
