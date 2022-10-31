@@ -4,7 +4,7 @@ import "../footer/Footer.css";
 const Footer = () => {
   return (
     <>
-      <div className="footer bg-secondary">
+      <div className="footer bg-dark">
         <div className="mail">
           <div>
             <i class="bi bi-envelope"></i>
@@ -21,7 +21,7 @@ const Footer = () => {
         </div>
         <div className="location">
           <div>
-            <i class="bi bi-person-lines-fill"></i>
+            <i class="bi bi-geo-alt"></i>
           </div>
           <h6>Location</h6>
           <p>Lagos, Nigeria</p>

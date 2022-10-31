@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 
 #about {
-  background-image: url(../images/yes.jpg);
+  background-color: rgb(134, 205, 249);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -12,10 +12,11 @@
 }
 
 #about h2 {
-  font-family: "Abril Fatface", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 4rem;
   color: #000;
   text-align: center;
+  margin-top: 1rem;
 }
 .about-container {
   display: grid;

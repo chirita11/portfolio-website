@@ -20,8 +20,7 @@ nav span {
 .navbar-nav button {
   color: #000;
   background-color: rgb(98, 148, 190);
-  border-radius: 3px;
-  border-style: none;
+  justify-content: space-between;
   outline: 1px solid black;
 }
 
@@ -29,4 +28,8 @@ nav span {
   background-color: rgb(5, 172, 11);
   transition: 0.7s;
   outline: 1px solid black;
+}
+
+.navbar-nav .nav-item {
+  font-size: 20px;
 }

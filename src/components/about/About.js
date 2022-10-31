@@ -44,12 +44,12 @@ const About = () => {
             >
               <div className="about-text">
                 <h1>
-                  <span>CHIAHA RITA CHINWENDU</span> is a web developer and an
-                  entreprenuer, passionate about creating beautiful, functional
-                  and responsive websites. She strives to build immersive and
-                  beautiful web applications through carefully crafted code and
-                  user-centric design. I have worked with incredibly talented
-                  people across different platforms.
+                  <span>RITA </span> is a web developer and an entreprenuer,
+                  passionate about creating beautiful, functional and responsive
+                  websites. She strives to build immersive and beautiful web
+                  applications through carefully crafted code and user-centric
+                  design. I have worked with incredibly talented people across
+                  different platforms.
                 </h1>
                 <h3>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.

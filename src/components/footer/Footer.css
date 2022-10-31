@@ -17,7 +17,7 @@ div .footer {
   div .footer {
     display: block;
     color: #fff;
-    padding: 1rem;
+    padding: 1rem 0;
   }
   .footer .contact {
     border-left: 0;
@@ -27,5 +27,14 @@ div .footer {
   }
   .footer h6 {
     display: none;
+  }
+  .footer i {
+    display: block;
+  }
+  .footer {
+    display: block;
+  }
+  .footer p {
+    display: flex;
   }
 }

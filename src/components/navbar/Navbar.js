@@ -6,7 +6,7 @@ import "../navbar/Navbar.css";
 const Navbar = () => {
   return (
     <>
-      <nav class="navbar navbar-expand-lg bg-secondary">
+      <nav class="navbar navbar-expand-lg bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand text-white nav-title ms-5" href="#">
             Rit<span>a</span>
@@ -52,7 +52,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a href={resume} target="_blank">
-                  <button class="nav-link btn btn-outline text-white py-2 px-">
+                  <button class="nav-link btn btn-outline text-white">
                     Download CV
                   </button>
                 </a>

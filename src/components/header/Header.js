@@ -10,8 +10,21 @@ const Header = () => {
         <div className="header-text">
           <h6 className="hello">Hello World, I'm</h6>
           <h1>Chinwendu</h1>
-          <p>Developer and an Entreprenuer.</p>
-
+          <h4>Developer and Freelancer</h4>
+          <div className="links">
+            <a href="#">
+              <i class="bi bi-envelope"></i>
+            </a>
+            <a href="#">
+              <i class="bi bi-twitter"></i>
+            </a>
+            <a href="#">
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="#">
+              <i class="bi bi-github"></i>
+            </a>
+          </div>
           <div className="button">
             <a href={resume}>
               <button>Download CV</button>

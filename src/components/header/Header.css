@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 
 .header {
-  background-image: url(../images/about-bg.jpg);
+  background-image: url(../images/yes.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -11,12 +11,26 @@
   height: 100%;
 }
 
+.header-image {
+  margin-left: 4rem;
+}
+
 .header .header-text {
   font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
   justify-content: end;
   padding: 0 10rem;
   margin-top: 10rem;
+}
+.links {
+  display: flex;
+  padding: 0;
+  margin-left: 0;
+  margin-top: 2rem;
+}
+.links a {
+  margin-right: 1rem;
+  color: #000;
 }
 
 .header-text h1 {
@@ -41,6 +55,7 @@ button {
   padding: 12px 1.5rem;
   border-style: none;
   outline: 1px solid black;
+  margin-bottom: 2rem;
 }
 
 .button button:hover {
