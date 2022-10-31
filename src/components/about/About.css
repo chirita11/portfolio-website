@@ -1,35 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&display=swap");
 
 #about {
-  background-color: rgb(134, 205, 249);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
+  background-color: #fff;
+
+  /* display: flex; */
   width: 100%;
   height: 100%;
 }
 
 #about h2 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 4rem;
+  font-family: "Alkalami";
+  font-size: 2rem;
   color: #000;
   text-align: center;
-  margin-top: 1rem;
 }
+
 .about-container {
   display: grid;
   grid-template-columns: 500px 1fr;
 }
 
-.name .links img {
-  width: 40%;
-}
-.links {
+.links-about {
   display: flex;
-  margin-left: 5rem;
-  margin-bottom: 3rem;
+  text-align: center;
+  padding: 0;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+
+.links-about a {
+  margin-right: 2rem;
+  color: #000;
+  font-size: larger;
 }
 
 .name h5 {
@@ -37,7 +41,6 @@
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-weight: bold;
-  margin-left: 4rem;
 }
 
 .about-container-left img {
@@ -46,17 +49,20 @@
   margin-left: 2rem;
   border-radius: 15rem;
 }
+.about-text {
+  margin-top: 13rem;
+}
 
 .content-about h1 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
+  font-family: "Alkalami";
+  font-size: 1.2rem;
   padding: 13px;
-  margin-top: 9rem;
+  font-weight: lighter;
 }
 
 .content-about h3 {
-  margin-top: 10px;
-  font-size: 1rem;
+  font-family: "Alkalami";
+  font-size: 1.2rem;
   padding: 13px;
 }
 .content-about span {

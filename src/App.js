@@ -5,11 +5,26 @@ import Header from "./components/header/Header";
 import Navbar from "./components/navbar/Navbar";
 import Portfolio from "./components/portfolio/Portfolio";
 import Resume from "./components/resume/Resume";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout";
+import Notfound from "./components/Notfound";
 
 function App() {
   return (
     <div>
-      <Navbar />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Header />} />
+            <Route path="about" element={<About />} />
+            <Route path="portfolio" element={<Portfolio />} />
+            <Route path="resume" element={<Resume />} />
+            <Route path="*" element={<Notfound />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+
+      {/* <Navbar />
       <Header />
       <Footer />
       <About />
@@ -17,7 +32,7 @@ function App() {
       <Portfolio />
       <Footer />
       <Resume />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }

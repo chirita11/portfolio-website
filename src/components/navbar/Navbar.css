@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap");
 
 nav {
-  background-color: rgb(234, 234, 240);
+  background-color: rgb(31, 38, 49);
   font-size: 1rem;
   font-family: "Montserrat";
 }
@@ -17,15 +17,14 @@ nav span {
   font-weight: bolder;
 }
 
-.navbar-nav button {
-  color: #000;
-  background-color: rgb(98, 148, 190);
+.navbar-nav .download {
+  background-color: rgb(203, 127, 127);
   justify-content: space-between;
   outline: 1px solid black;
 }
 
 .navbar-nav button:hover {
-  background-color: rgb(5, 172, 11);
+  background-color: rgb(242, 248, 242);
   transition: 0.7s;
   outline: 1px solid black;
 }

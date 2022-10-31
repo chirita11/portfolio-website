@@ -25,9 +25,9 @@ const Header = () => {
               <i class="bi bi-github"></i>
             </a>
           </div>
-          <div className="button">
-            <a href={resume}>
-              <button>Download CV</button>
+          <div className="button ">
+            <a href={resume} class="btn btn-outline-dark px-4 py-3 mt-4">
+              Download CV
             </a>
           </div>
         </div>

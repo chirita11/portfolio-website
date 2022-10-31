@@ -2,15 +2,16 @@ import React from "react";
 import image from "../images/image-hero.png";
 import resume from "../resume/cv.docx";
 import "../navbar/Navbar.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <>
-      <nav class="navbar navbar-expand-lg bg-dark">
+      <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
-          <a class="navbar-brand text-white nav-title ms-5" href="#">
+          <Link class="navbar-brand text-white nav-title ms-5" href="#">
             Rit<span>a</span>
-          </a>
+          </Link>
 
           <button
             class="navbar-toggler"
@@ -29,33 +30,46 @@ const Navbar = () => {
           >
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a
-                  class="nav-link active nav-link text-white mt-2 ms-2"
+                <Link
+                  class="nav-link active nav-link text-white mt-2 me-3"
                   aria-current="page"
-                  href="#"
+                  to="/"
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-link text-white mt-2 ms-2" href="#">
+                <Link
+                  class="nav-link nav-link text-white mt-2 me-3"
+                  to="/about"
+                >
                   About
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-link text-white mt-2 ms-2" href="#">
+                <Link
+                  class="nav-link nav-link text-white mt-2 me-3"
+                  to="/resume"
+                >
                   Resume
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-link text-white mt-2 ms-2">Portfolio</a>
+                <Link
+                  class="nav-link nav-link text-white mt-2 me-3 "
+                  to="/portfolio"
+                >
+                  Portfolio
+                </Link>
               </li>
               <li>
-                <a href={resume} target="_blank">
-                  <button class="nav-link btn btn-outline text-white">
-                    Download CV
-                  </button>
-                </a>
+                <Link
+                  to={resume}
+                  target="_blank"
+                  className="nav-link btn btn-outline download py-3 px-5 mt-2 text-white"
+                >
+                  Download CV
+                </Link>
               </li>
             </ul>
           </div>
