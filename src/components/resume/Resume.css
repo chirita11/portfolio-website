@@ -15,8 +15,12 @@
   font-family: "Abril-Fatface";
 }
 .resume-head {
-  background-color: #000;
+  background: linear-gradient(to top, rgb(57, 3, 144), rgb(197, 182, 220));
   width: 100%;
+}
+
+.cv {
+  margin-top: 4rem;
 }
 
 .resume-head h6 {
@@ -24,6 +28,11 @@
   color: #fff;
   font-size: 30px;
   text-align: center;
+}
+
+.company h6 {
+  color: #1d1545;
+  font-weight: bold;
 }
 
 .resume-head h3 {
@@ -41,6 +50,7 @@
 .text {
   display: grid;
   grid-template-columns: 500px 1fr;
+  margin-top: 2rem;
 }
 
 .title,

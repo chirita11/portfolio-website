@@ -4,17 +4,27 @@
 
 #about {
   background-color: #fff;
-
-  /* display: flex; */
   width: 100%;
   height: 100%;
 }
 
-#about h2 {
-  font-family: "Alkalami";
-  font-size: 2rem;
+.content-about {
+  text-align: center;
+  font-family: "Abril Fatface";
+  display: block;
+}
+
+.content-about h2 {
+  margin-top: 5rem;
+  font-size: 55px;
+}
+/* #about h2 {
   color: #000;
   text-align: center;
+} */
+
+.content-about span {
+  color: rgb(57, 3, 144);
 }
 
 .about-container {
@@ -23,10 +33,8 @@
 }
 
 .links-about {
-  display: flex;
-  text-align: center;
   padding: 0;
-  margin: auto;
+  margin-left: 8rem;
   margin-bottom: 4rem;
 }
 
@@ -41,6 +49,7 @@
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-weight: bold;
+  margin-left: 3rem;
 }
 
 .about-container-left img {
@@ -49,8 +58,9 @@
   margin-left: 2rem;
   border-radius: 15rem;
 }
+
 .about-text {
-  margin-top: 13rem;
+  margin-top: 10rem;
 }
 
 .content-about h1 {
@@ -60,15 +70,10 @@
   font-weight: lighter;
 }
 
-.content-about h3 {
+.about-container h3 {
   font-family: "Alkalami";
   font-size: 1.2rem;
   padding: 13px;
-}
-.content-about span {
-  color: rgb(116, 113, 113);
-  font-weight: bolder;
-  font-size: 3rem;
 }
 
 @media (min-width: 375px) and (max-width: 576px) {
@@ -89,21 +94,7 @@
     margin-top: 1rem;
     margin-bottom: 0;
     padding: 10px;
-  }
-
-  .content-about span {
-    font-size: 1.8rem;
-  }
-  .name .links img {
-    width: 100%;
-    margin: 2px;
-  }
-  .links {
-    display: flex;
-    margin-bottom: 1rem;
-    justify-content: space-evenly;
-    margin-left: 2px;
-    width: 100%;
+    border: 1px solid red;
   }
 
   .name h5 {
@@ -113,5 +104,10 @@
     margin-left: 6rem;
     display: inline;
     width: 100%;
+  }
+
+  .about-text {
+    margin-right: 1rem;
+    margin-top: 2rem;
   }
 }

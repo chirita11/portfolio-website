@@ -6,17 +6,17 @@ const Resume = () => {
   return (
     <>
       <div className="resume container-fluid bg-light">
-        <div className="cv container">
-          <div className="resume-head container-fluid">
-            <div className="head-title">
-              <h1>Chiaha Rita Chinwendu</h1>
-              <h6>Web developer | Entreprenuer</h6>
-            </div>
-            <div className="mail">
-              <h3>chiaharita0@gmail.com</h3>
-              <h3>08155100583</h3>
-            </div>
+        <div className="resume-head container">
+          <div className="head-title">
+            <h1>Chiaha Rita Chinwendu</h1>
+            <h6>Web developer | Entreprenuer</h6>
           </div>
+          <div className="mail">
+            <h3>chiaharita0@gmail.com</h3>
+            <h3>08155100583</h3>
+          </div>
+        </div>
+        <div className="cv container">
           <div className="text">
             <div className="title">
               <h4>EDUCATION & TRAINING - </h4>
@@ -39,6 +39,8 @@ const Resume = () => {
             <div className="description">
               <div className="work">
                 <h5> Web developer</h5>
+              </div>
+              <div className="company">
                 <h6>Tech Accent Creatives</h6>
               </div>
 
@@ -52,6 +54,8 @@ const Resume = () => {
 
               <div className="work">
                 <h5>Data Collector </h5>
+              </div>
+              <div className="company">
                 <h6>World Bank Projects</h6>
               </div>
 
@@ -65,6 +69,8 @@ const Resume = () => {
 
               <div className="work">
                 <h5>Executive Secretary</h5>
+              </div>
+              <div className="company">
                 <h6>Raxon Culler Gold</h6>
               </div>
 
@@ -79,6 +85,8 @@ const Resume = () => {
 
               <div className="work">
                 <h5>Customer Service Representative</h5>
+              </div>
+              <div className="company">
                 <h6>Icegate Limited</h6>
               </div>
 
@@ -92,6 +100,8 @@ const Resume = () => {
 
               <div className="work">
                 <h5>Internal Auditor</h5>
+              </div>
+              <div className="company">
                 <h6>Aaron's Place</h6>
               </div>
 
@@ -124,12 +134,6 @@ const Resume = () => {
                 <p>Redux </p>
                 <p>Angular JS</p>
                 <p>Bootstrap</p>
-              </div>
-              <div className="work">
-                <p>Ms Word</p>
-                <p>Ms Excel</p>
-                <p>Ms Access</p>
-                <p>Ms Powerpoint</p>
               </div>
             </div>
           </div>

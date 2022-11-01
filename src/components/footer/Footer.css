@@ -1,6 +1,5 @@
-.footer {
-  background-color: rgb(31, 38, 49);
-}
+/* .footer {
+} */
 
 .footer .icon {
   display: none;
@@ -13,12 +12,12 @@ div .footer {
   padding: 2rem 0;
 }
 .footer .contact {
-  border-left: 1px solid rgb(203, 127, 127);
-  border-right: 1px solid rgb(203, 127, 127);
+  border-left: 1px solid rgb(197, 182, 220);
+  border-right: 1px solid rgb(197, 182, 220);
   padding: 0 7rem;
 }
 .footer h6 {
-  color: rgb(203, 127, 127);
+  color: rgb(197, 182, 220);
 }
 
 @media (min-width: 375px) and (max-width: 576px) {

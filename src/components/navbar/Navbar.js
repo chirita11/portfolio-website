@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <nav class="navbar navbar-expand-lg ">
+      <nav class="navbar navbar-expand-lg bg-dark ">
         <div class="container-fluid">
           <Link class="navbar-brand text-white nav-title ms-5" href="#">
             Rit<span>a</span>
@@ -48,18 +48,18 @@ const Navbar = () => {
               </li>
               <li class="nav-item">
                 <Link
-                  class="nav-link nav-link text-white mt-2 me-3"
-                  to="/resume"
-                >
-                  Resume
-                </Link>
-              </li>
-              <li class="nav-item">
-                <Link
                   class="nav-link nav-link text-white mt-2 me-3 "
                   to="/portfolio"
                 >
                   Portfolio
+                </Link>
+              </li>
+              <li class="nav-item">
+                <Link
+                  class="nav-link nav-link text-white mt-2 me-3"
+                  to="/resume"
+                >
+                  Resume
                 </Link>
               </li>
               <li>

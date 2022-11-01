@@ -1,17 +1,16 @@
 import React from "react";
 import image from "../images/image-hero.png";
 import "../header/Header.css";
-import resume from "../resume/cv.docx";
-
+import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
-      <div className="header container-fluid">
+      <div className="header text-white container-fluid">
         <div className="header-text">
-          <h6 className="hello">Hello World, I'm</h6>
+          <h6 className="hello text-white">Hello World, I'm</h6>
           <h1>Chinwendu</h1>
           <h4>Developer and Freelancer</h4>
-          <div className="links">
+          <div className="links text-white">
             <a href="#">
               <i class="bi bi-envelope"></i>
             </a>
@@ -26,9 +25,12 @@ const Header = () => {
             </a>
           </div>
           <div className="button ">
-            <a href={resume} class="btn btn-outline-dark px-4 py-3 mt-4">
-              Download CV
-            </a>
+            <Link
+              to="/portfolio"
+              class="btn btn-outline-white bg-dark px-4 py-3 mt-4"
+            >
+              View Portfolio
+            </Link>
           </div>
         </div>
         <div className="header-image">

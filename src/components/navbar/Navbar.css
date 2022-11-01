@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap");
 
 nav {
-  background-color: rgb(31, 38, 49);
+  /* background-color: #93c572; */
   font-size: 1rem;
   font-family: "Montserrat";
 }
@@ -18,7 +18,8 @@ nav span {
 }
 
 .navbar-nav .download {
-  background-color: rgb(203, 127, 127);
+  background-color: rgb(197, 182, 220);
+
   justify-content: space-between;
   outline: 1px solid black;
 }
